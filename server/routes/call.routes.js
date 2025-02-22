@@ -6,13 +6,13 @@ const langController = require("../controllers/language.controller");
 const router = express.Router();
 
 // POST /voice
-// router.post("/", langController.languageSelection);
+router.post("/", langController.languageSelection);
 // // POST /voice/respond
-// router.post("/select-language", langController.selectLanguage);
-// router.post("/post", callController.post);
-// router.post("/handle-keypress", callController.handleKeyPress);
-// router.post("/get-location", callController.getNearbyHospitals);
-// router.post("/respond", callController.respond);
+router.post("/select-language", langController.selectLanguage);
+router.post("/post", callController.post);
+router.post("/handle-keypress", callController.handleKeyPress);
+router.post("/get-location", callController.getNearbyHospitals);
+router.post("/respond", callController.respond);
 
 module.exports = router;
 
