@@ -1,0 +1,103 @@
+.team-section {
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 60px;
+  }
+  
+  .team-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .team-subtitle {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .team-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 220px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #2a9d8f;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-card:hover .team-image {
+    transform: scale(1.1);
+  }
+  
+  .team-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .team-role {
+    font-size: 0.8rem;
+    color: #777;
+    transition: color 0.3s ease-in-out;
+    padding-bottom: 10px;
+  }
+  
+  .team-card:hover .team-name {
+    color: #64bcef;
+  }
+  
+  .team-card:hover .team-role {
+    color: #64bcef;
+  }
+  
+  /* Social Media Icons */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    font-size: 20px;
+    color: #2b62ed; /* Default Blue */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon.github {
+    color: #2b62ed; /* GitHub stays black */
+  }
+  
+  .team-card:hover .social-icon {
+    color: #000; /* Turns black on hover */
+  }
+  
