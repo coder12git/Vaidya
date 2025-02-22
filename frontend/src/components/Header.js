@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Header.css";
 import { FaBars } from "react-icons/fa"; // Import hamburger icon
+import image from "../assets/sahayak2.png"
 
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-container">
-        <img src=/*{logo}*/"" alt=" Logo" className="logo-img" />
+        <img src={image} alt=" Logo" className="logo-img" />
         <span className="logo-text">Sahayak</span>
       </div>
 
