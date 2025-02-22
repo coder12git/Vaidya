@@ -10,7 +10,7 @@ import Team from "./components/Team";
 import VideoDemo from "./components/VideoDemo";
 import Flowchart from "./components/Flowchart";
 import Footer from "./components/Footer";
-
+import Future from "./components/Future";
 function App() {
   return (
     <div className="app">
@@ -19,6 +19,7 @@ function App() {
       <Features />
       <HowItWorks />
       <Flowchart/>
+      <Future/>
       <VideoDemo/>
       <FAQ/>
       <Contact />

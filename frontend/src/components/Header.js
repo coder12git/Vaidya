@@ -19,8 +19,7 @@ const Header = () => {
         <a href="#Hero">About</a>
         <a href="#features">Features</a>
         <a href="#how-it-works">How It Works</a>
-        <a href="#flowchart">Flowchart</a>
-        <a href="#video">Demo Video</a>
+        <a href="#future">Buisness Aspects</a>
         <a href="#FAQ">FAQ</a>
         <a href="#contact">Contact</a>
         <a href="#Team">About Team</a>
