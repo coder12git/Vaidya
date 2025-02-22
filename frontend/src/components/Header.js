@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Header.css";
 import { FaBars } from "react-icons/fa"; // Import hamburger icon
-import image from "../assets/sahayak2.png"
+import image from "../assets/Sahayak3.png"
 
 
 const Header = () => {
