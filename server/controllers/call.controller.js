@@ -157,7 +157,7 @@ const handleKeyPress = async (req, res) => {
     case "2":
       //Find Nearby Hospitals & Doctors
       const gather = twiml.gather({
-        speechTimeout: auto,
+        speechTimeout: 5,
         speechModel: "phone_call",
         input: "speech",
         action: `/voice/get-location?lang=${lang}`,
@@ -181,8 +181,15 @@ const handleKeyPress = async (req, res) => {
 
     case "4":
       // AI Symptom Checker
-      twiml.say(messages.symptom);
-      twiml.record({ action: `/voice/respond?lang=${lang}`, method: "POST", maxLength: 30, transcribe: true });
+      const gatherSymptom = twiml.gather({
+        input: "speech",
+        speechTimeout: 5, // waits 5 seconds for speech input
+        action: `/voice/respond?lang=${lang}`,
+        method: "POST"
+      });
+      gatherSymptom.say(messages.symptom);
+      // twiml.say(messages.symptom);
+      // twiml.record({ action: `/voice/respond?lang=${lang}`, method: "POST", maxLength: 30, transcribe: true });
       break;
 
     default:
