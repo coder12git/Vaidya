@@ -1,0 +1,88 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 70px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Background Box */
+  .hero-box {
+    display: flex;
+    flex-direction: row; /* Keep text on left, video on right */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+    border-radius: 15px;
+    /* background: url("https://img.freepik.com/free-vector/perspective-hexagon-floor-background_1409-1828.jpg?t=st=1739818352~exp=1739821952~hmac=96f6d1ab7e8533668fc01fa6b851389290432dd600c168674a7e6bda8bb176db&w=1380") no-repeat center center/cover; */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Keep original hero content styles */
+  .hero-content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Keep original button styles */
+  .hero button {
+    background: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background: #0056b3;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Keep original video styles */
+  .hero-video video {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero-box {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .hero-content {
+      margin-bottom: 20px;
+    }
+  
+    .hero-video video {
+      max-width: 90%;
+    }
+  }
+  
+  
