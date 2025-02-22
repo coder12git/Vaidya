@@ -9,6 +9,7 @@ import FAQ from "./components/FAQ";
 import Team from "./components/Team";
 import VideoDemo from "./components/VideoDemo";
 import Flowchart from "./components/Flowchart";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <FAQ/>
       <Contact />
       <Team/>
+      <Footer />
     </div>
   );
 }
