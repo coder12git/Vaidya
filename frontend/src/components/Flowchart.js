@@ -132,7 +132,7 @@ const Flowchart = () => {
     );
   
     return (
-      <div className="flowchart-container">
+      <div className="flowchart-container" id="flowchart">
          <h2>Flowchart</h2>
          <p> Flowchart of our Sahayak </p>
       {/* Desktop: Show React Flow */}
