@@ -1,0 +1,101 @@
+.how-it-works {
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 100px;
+    
+  }
+  
+  .how-it-works h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .how-it-works p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  /* 🌟 Step Container */
+  .steps-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* ✨ Step Card */
+  .step-card {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    width: 200px; /* Reduced width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .step-card h3{
+    font-size: 18px;
+  }
+  .step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #4A90E2;
+    margin-bottom: 10px;
+  }
+  
+  /* 🔥 Animated Arrow */
+  
+  .arrow {
+    font-size: 36px;
+    color: #4A90E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: arrowBounce 1.5s infinite alternate ease-in-out;
+  }
+  
+  .arrow svg {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* 🏆 Arrow Animation */
+  @keyframes arrowBounce {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(10px);
+    }
+  }
+  
+  /* 📱 Responsive Fix: Change Arrow to Downward for Mobile */
+  @media (max-width: 768px) {
+    .steps-container {
+      flex-direction: column;
+    }
+  
+    .arrow {
+      transform: rotate(90deg); /* Rotate arrow to point down */
+      margin: 10px 0; /* Add spacing */
+      animation: arrowBounceVertical 1.5s infinite alternate ease-in-out;
+    }
+  
+    @keyframes arrowBounceVertical {
+      0% {
+        transform: translateY(0) rotate(90deg);
+      }
+      100% {
+        transform: translateY(10px) rotate(90deg);
+      }
+    }
+  }
