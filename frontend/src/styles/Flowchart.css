@@ -1,0 +1,45 @@
+.flowchart-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+  }
+    
+  .flowchart-container h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .flowchart-container p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  .desktop-flowchart {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mobile-flowchart {
+    display: none;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .flowchart-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  /* Hide ReactFlow and Show Image on Small Screens */
+  @media screen and (max-width: 768px) {
+    .desktop-flowchart {
+      display: none;
+    }
+    .mobile-flowchart {
+      display: block;
+    }
+  }
