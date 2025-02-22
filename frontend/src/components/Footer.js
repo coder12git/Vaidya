@@ -6,8 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        {/* Logo */}
-        <div className="footer-logo">Sahayak</div>
+       
 
         {/* Social Media Icons */}
         <div className="social-icons">

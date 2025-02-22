@@ -134,7 +134,7 @@ const Flowchart = () => {
     return (
       <div className="flowchart-container" id="flowchart">
          <h2>Flowchart</h2>
-         <p> Flowchart of our Sahayak </p>
+         <p> The flowchart shows the process from user call to response, ensuring multilingual support and accurate assistance. </p>
       {/* Desktop: Show React Flow */}
       <div className="desktop-flowchart">
         <ReactFlow nodes={nodes} edges={edges} onNodesChange={onNodesChange} onEdgesChange={onEdgesChange}  fitView  zoomOnScroll={false} 
