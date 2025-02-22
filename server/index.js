@@ -18,6 +18,10 @@ app.use('/sms', textRoutes);
 const callRoutes = require('./routes/call.routes');
 app.use('/voice', callRoutes);
 
+app.get("/", (req,res)=>{
+    res.json({ message: "Hello World" });
+});
+
 app.listen(PORT, () => {
     console.log("Express server started on PORT ", PORT);
 })
