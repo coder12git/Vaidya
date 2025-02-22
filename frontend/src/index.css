@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Pacifico&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Delius Swash Caps", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to right, #f9f9f9, #d9e8f3); /* Softer gradient */
+    background-image: URL("https://img.freepik.com/free-vector/white-background-gradient-modern-abstract-design-wave_343694-2337.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    
+    color: #333;
+  }
+  
+
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
