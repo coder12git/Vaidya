@@ -1,15 +1,32 @@
 import React from "react";
-import "../styles/Contact.css";
 import { FaUser, FaEnvelope, FaPhone, FaPaperPlane } from "react-icons/fa";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "../styles/Contact.css";
 
 const ContactUs = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevents page reload
+
+    // Show success notification
+    toast.success("Your number has been connected successfully!", {
+      position: "top-right",
+      autoClose: 3000, // Auto close after 3 seconds
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      theme: "dark",
+    });
+  };
+
   return (
     <section className="contact-section" id="contact">
       <h2>Connect with Us</h2>
-      <p>Connect Your number with us such that You can be benifiited by this medical Assistant!</p>
+      <p>Connect your number with us so that you can benefit from this medical assistant!</p>
 
       <div className="contact-container">
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={handleSubmit}>
           <div className="input-group">
             <FaUser className="icon" />
             <input type="text" placeholder="Your Name" required />
@@ -26,12 +43,16 @@ const ContactUs = () => {
           </div>
 
           <button type="submit" className="send-btn">
-           Connect Number<FaPaperPlane />
+            Connect Number <FaPaperPlane />
           </button>
         </form>
       </div>
+
+      {/* Toast Notification Container */}
+      <ToastContainer />
     </section>
   );
 };
 
 export default ContactUs;
+
