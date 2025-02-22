@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Hero.css";
 import medicalVideo from "../assets/Medical3.mp4";
+import image from '../assets/hero.png';
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="hero-video">
-          <video src={medicalVideo} autoPlay loop muted playsInline className="video" />
+          <img src={image} alt=" Logo" />
         </div>
  
     </section>

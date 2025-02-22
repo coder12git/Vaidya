@@ -9,14 +9,13 @@ const ContactUs = () => {
     e.preventDefault(); // Prevents page reload
 
     // Show success notification
-    toast.success("Your number has been connected successfully!", {
+    toast.info("Thanks for sharing your details! We'll connect your number shortly and notify you via SMS.", {
       position: "top-right",
       autoClose: 3000, // Auto close after 3 seconds
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
-      theme: "dark",
     });
   };
 
@@ -49,7 +48,7 @@ const ContactUs = () => {
       </div>
 
       {/* Toast Notification Container */}
-      <ToastContainer />
+      <ToastContainer style={{ top: '130px' }}/>
     </section>
   );
 };

@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Pacifico&display=swap');
 
 
@@ -11,31 +10,31 @@
   font-style: normal;
 }
 
-  body {
-    font-family: "Arial", sans-serif;
-    background: linear-gradient(to right, #f9f9f9, #d9e8f3); /* Softer gradient */
-    background-image: URL("https://img.freepik.com/free-vector/white-background-gradient-modern-abstract-design-wave_343694-2337.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    text-align: center;
-    
-    color: #333;
-  }
-  
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #e6f7ff, #ffffff); /* Light blue to white *
+  /* Light blue as fallback */
+  /* background-image: url("https://img.freepik.com/free-vector/medical-background-with-abstract-wave-lines_53876-95831.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: #333;
+  /* Dark gray for text */
+}
 
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  button {
-    cursor: pointer;
-  }
-  
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}

@@ -11,7 +11,7 @@ const Header = () => {
     <header className="header">
       <div className="logo-container">
         <img src={image} alt=" Logo" className="logo-img" />
-        <span className="logo-text">Sahayak</span>
+        {/* <span className="logo-text">Sahayak</span> */}
       </div>
 
       {/* Desktop Navigation */}

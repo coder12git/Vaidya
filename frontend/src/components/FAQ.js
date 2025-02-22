@@ -5,7 +5,7 @@ import { FaChevronDown } from "react-icons/fa";
 const faqs = [
   {
     question: "How does Sahayak provide medical assistance?",
-    answer: "Sahayak connects users with medical support through Twilio calls and SMS. Users can call our provided number, and our system processes the request to provide necessary medical guidance or nearby hospital details."
+    answer: "Sahayak connects users with medical support through calls and SMS. Users can call our provided number, and our system processes the request to provide necessary medical guidance or nearby hospital details."
   },
   {
     question: "Is Sahayak available 24/7?",
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     question: "Is this service free to use?",
-    answer: "Yes, the service is free, but carrier charges for calls or SMS may apply based on your telecom provider."
+    answer: "Yes, the service is free."
   }
 ];
 
