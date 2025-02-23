@@ -11,7 +11,7 @@ const Hero = () => {
           <h1>Your Medical Assistant, Anytime</h1>
           <p>Get instant medical help via call & SMS with Sahayak.</p>
           <a href="tel:+1234567890">
-            <button className="cta-button">Call Assistance    (+1234567890)</button>
+            <button className="cta-button">Call Assistance    (+19283796252)</button>
           </a>
         </div>
         <div className="hero-video">
