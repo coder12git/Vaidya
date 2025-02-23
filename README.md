@@ -29,27 +29,28 @@ Millions of people, especially in low-resource settings, struggle to access time
 
 ## Features
 
-**Voice-Based AI Assistance**:
+- **Voice-Based AI Assistance**:
 Sahayak uses programmable voice to offer a fully voice-activated interface that works even on basic phones, without internet.
 
-**Multilingual Support**:
+- **Multilingual Support**:
 Users can select their preferred language (English, Hindi, etc) at the start of the call, ensuring that all communication - including symptom queries and first-aid instructions, is delivered in their language.
 
-**Integrated Medical Guidance**:
+- **Integrated Medical Guidance**:
 Leveraging the Gemini API , Sahayak provides real-time general medical guidance for symptom-related queries while strictly avoiding diagnoses.
 
-**Emergency & Direct Connectivity**:
+- **Emergency & Direct Connectivity**:
 The system not only offers first-aid instructions for common emergencies (e.g., burns, cuts, fever, dehydration) but also connects users directly to doctors or emergency services if needed.
 
-**Location-Based Services**:
+- **Location-Based Services**:
 With integrated Google Maps API, Sahayak can quickly find nearby hospitals and clinics and send details (name, address, phone number) via SMS.
 
-**SMS Support**:
+- **SMS Support**:
 All guidance and details are also sent via SMS, ensuring users have a permanent record of their medical advice - even if they miss the voice call.
 
 
 ## How It Works
-![image](https://github.com/user-attachments/assets/6067993a-1e34-4294-b742-4d7219abc374)
+
+![flowchart](https://github.com/user-attachments/assets/71080043-94fb-4e5e-8c57-c86bedd51d2e)
 
 
 ## Technology Stack
