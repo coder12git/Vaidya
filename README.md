@@ -3,8 +3,8 @@
 An AI-based medical assistant that works without the internet, accessible via a simple phone call.
 
 ## Live Links
-- **Frontend**: [Vaidya Frontend](https://vaidya-83rp.vercel.app/)
-- **Backend**: [Vaidya Backend](https://vaidya-gamma.vercel.app/)
+- **Frontend**: [Sahayak Frontend](https://vaidya-83rp.vercel.app/)
+- **Backend**: [Sahayak Backend](https://vaidya-gamma.vercel.app/)
 - **YouTube Demo**: [Watch Video](https://youtu.be/9PLBbNzp2XA?si=P__Z80o56j7gX9Sb)
 
 ## Project Overview
@@ -20,7 +20,8 @@ Vaidya is an AI-powered medical assistant that provides reliable medical guidanc
 - Connects users to doctors or emergency services when required.
 
 ## How It Works
-![System Diagram](https://github.com/user-attachments/assets/512e5656-d649-487f-a26c-05cd587d5339)
+![image](https://github.com/user-attachments/assets/6067993a-1e34-4294-b742-4d7219abc374)
+
 
 ## Technology Stack
 - **Node.js & Express.js** – Backend server.
