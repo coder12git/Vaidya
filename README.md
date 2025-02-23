@@ -65,6 +65,32 @@ All guidance and details are also sent via SMS, ensuring users have a permanent 
 
 <h2>Screenshots demonstrating the functionality of our backend server</h2>
 
+![m1](https://github.com/user-attachments/assets/aa93d7db-b009-46e1-8137-38ccdfebb275)
+
+![m2](https://github.com/user-attachments/assets/d1973fdc-f440-44ea-8580-8209e23bfabe)
+
+![m3](https://github.com/user-attachments/assets/f53f6f8b-4a71-4631-ab2c-2200982dc451)
+
+![m4](https://github.com/user-attachments/assets/948672c8-3f54-44c1-805d-8649fda945da)
+
+
+![m5](https://github.com/user-attachments/assets/f417a037-4828-4ee8-9fe1-8f3ba946b963)
+
+
+![m6](https://github.com/user-attachments/assets/4e286d98-b6e8-4ef3-b2e8-c2bfb498aac1)
+
+
+
+![Screenshot 2025-02-23 130356](https://github.com/user-attachments/assets/253ad188-7a3c-46fd-94c7-86e079e9d657)
+
+
+![Screenshot 2025-02-23 130407](https://github.com/user-attachments/assets/fa623fa1-ad86-4245-82a9-36cbe62b7d8e)
+
+![Screenshot 2025-02-23 130931](https://github.com/user-attachments/assets/af9e3ddb-31a1-49a2-b0e7-9c19bcdf76c6)
+
+![Screenshot 2025-02-23 130953](https://github.com/user-attachments/assets/38277977-554e-45db-b280-09fe8e09df4c)
+
+
 
 
 
