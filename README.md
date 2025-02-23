@@ -67,7 +67,19 @@ All guidance and details are also sent via SMS, ensuring users have a permanent 
 
 
 
-<h2>Screenshots demonstrating the functionality of our backend server</h2>
+<h2>Screenshots demonstrating the functionality of our website</h2>
+
+![Screenshot 2025-02-23 114630 1](https://github.com/user-attachments/assets/3e14a979-02d6-4b7e-a459-b67f07316677)
+![Screenshot 2025-02-23 114700 1](https://github.com/user-attachments/assets/741d54ef-4b71-40f8-9fd4-3ae277df4c61)
+![Screenshot 2025-02-23 114720 1](https://github.com/user-attachments/assets/5e57de1e-06b5-4848-ac89-5f92984ea430)
+![Screenshot 2025-02-23 114809 1](https://github.com/user-attachments/assets/08ca65ab-64da-4f4f-9837-1fa50fa68c58)
+![Screenshot 2025-02-23 114834 2](https://github.com/user-attachments/assets/f9ec5b06-ebdd-43a9-b61d-c11838882b1c)
+![Screenshot 2025-02-23 114850 1](https://github.com/user-attachments/assets/3051099d-547c-45ac-a9a4-1f1db1842d26)
+![Screenshot 2025-02-23 114904 1](https://github.com/user-attachments/assets/5be99cc6-e999-408a-a04d-3291f42c3d29)
+![Screenshot 2025-02-23 114916 2](https://github.com/user-attachments/assets/e914b444-5d3a-4a9d-9c2c-53d9f9424ec9)
+![Screenshot 2025-02-23 114937 1](https://github.com/user-attachments/assets/cba716ea-58d0-4b43-ba39-c1e0f0f7565f)
+![dash 1](https://github.com/user-attachments/assets/46783686-5fa7-4e75-883c-c70b4e06144d)
+
 
 
 <h2>Demo Video</h2>
@@ -75,7 +87,9 @@ All guidance and details are also sent via SMS, ensuring users have a permanent 
 
 
 
+**Here is our Demo Video**
 
+Link : https://youtu.be/9PLBbNzp2XA?si=XnxsvSGGu4Ci3PVj
 
 
 
