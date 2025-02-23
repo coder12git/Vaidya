@@ -7,7 +7,7 @@
 <br> 
 A Gen AI-based medical assistant that works without the internet, accessible via a simple phone call.
 
-Watch Demo Video - <a href='https://youtu.be/GyAh_ADMFKA](https://youtu.be/9PLBbNzp2XA?si=P__Z80o56j7gX9Sb'>Click here</a>
+Watch Demo Video - <a href='https://youtu.be/9PLBbNzp2XA?si=XnxsvSGGu4Ci3PVj'>Click here</a>
 <br>
 Website - https://vaidya-83rp.vercel.app/
 <br>
