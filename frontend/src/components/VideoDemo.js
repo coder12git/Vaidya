@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../styles/VideoDemo.css";
 import { FaPlay } from "react-icons/fa"; // Play button icon
+import image2 from "../assets/thumbnail.png"
+
 
 const VideoDemo = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +14,7 @@ const VideoDemo = () => {
 
       {/* Video Thumbnail with Play Button */}
       <div className="video-thumbnail" onClick={() => setIsOpen(true)}>
-        <img src="https://i.ytimg.com/vi/Ln7YVPevvaM/maxresdefault.jpg" alt="Video Thumbnail" />
+        <img src={image2} alt="Video Thumbnail" />
         <div className="play-button">
           <FaPlay />
         </div>
@@ -25,7 +27,7 @@ const VideoDemo = () => {
             <iframe
               width="900"
               height="500"
-              src="https://www.youtube.com/embed/Ln7YVPevvaM?si=8LgX7c-26_YxHIkD"
+              src="https://www.youtube.com/embed/9PLBbNzp2XA?si=OooP9BaRsxNzGZiF"
               title="Sahayak Demo"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
