@@ -19,7 +19,7 @@ const callRoutes = require('./routes/call.routes');
 app.use('/voice', callRoutes);
 
 app.get("/", (req,res)=>{
-    res.json({ message: "Hello World" });
+    res.json({ message: "Welcome to Sahayak, A Gen AI-based medical assistant that works without the internet, accessible via a simple phone call. To use the service, please call us at the given number: +19283796252" });
 });
 
 app.listen(PORT, () => {
