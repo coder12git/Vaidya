@@ -1,9 +1,9 @@
 # Sahayak
 An Gen AI-based medical assistant that works without the internet, accessible via a simple phone call.
 
-Frontend -> https://vaidya-83rp.vercel.app/
-Backend -> https://vaidya-gamma.vercel.app/
-You tube video -> https://youtu.be/9PLBbNzp2XA?si=P__Z80o56j7gX9Sb
+-Frontend -> https://vaidya-83rp.vercel.app/
+-Backend -> https://vaidya-gamma.vercel.app/
+-You tube video -> https://youtu.be/9PLBbNzp2XA?si=P__Z80o56j7gX9Sb
 
 # Project Overview
 Sahayak is an AI-powered medical assistant that works without an internet connection, providing reliable medical guidance via a simple phone call. It ensures accessibility for people in remote areas, the elderly, and those without smartphones by offering voice-based, multilingual medical assistance.
